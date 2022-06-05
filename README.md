@@ -2,13 +2,21 @@
 
 ## 1. Preimenujte sve pakete prema uputama u kolokviju
 ## 2. Spajanje na bazu, izrada baze i mapiranje
-
-create database [ime_baze] default character set utf8mb4;
-
+### 2.1. Davanje ovlasti korisniku
+Kroz CLI
+Cd ..
+Cd ..
+Cd xampp
+Cd bin
+Ce mysql  -uroot
 grant all privileges on [ime_baze].* to 'p2'@'localhost' identified by 'julija';
-
+Bez CLI
+grant all privileges on [ime_baze].* to 'p2'@'localhost' identified by 'julija';
+### 2.2. Izrada baze
+create database [ime_baze] default character set utf8mb4;
+### 2.3. Konekcija na bazu u hibernate fileu
 <property name="connection.url">jdbc:mariadb://localhost/[ime_baze]?useSSL=false</property>
-
+### 2.4. Mapiranje modela
 <mapping class="[klasa].[podklasa].[model]" />
 
 
