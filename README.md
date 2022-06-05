@@ -46,7 +46,13 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     2. Klik na sijalicu  "implement all abstract methods i pobrisat sve u metodama"
     3. U metodu public List<[ime_modela]> read(){} dodati - return session.createQuery("from [ime_modela]").list();
     4. Izraditi metodu public void setPodaci(ulazni parametri){} - u fileu ObradaCura ima sve
-
+## 5. View
+### 5.1. Izrada Izbornika
+    1. Izradiš Jframe Form Izbornik
+    2. Source -> Obiriši psvm
+    3. Code -> Generate Centar
+    4. Start -> new Izbornik().setVisible(true);
+    
 
 
 
