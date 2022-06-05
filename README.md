@@ -39,6 +39,14 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
 #### Više na prema više
 @ManyToMany - za vise na prema vise pr. @ManyToMany
     private List<Muskarac> muskarac;
+## 4. Izrada kontrolera
+### 4.1. Copy paste klasu Obrada.java
+### 4.2. Izrada klasa koje nasljeđuju klasu obrada
+    1. public class [naziv_klase] extends Obrada<[naziv_modela]>
+    2. Klik na sijalicu  "implement all abstract methods i pobrisat sve u metodama"
+    3. U metodu public List<[ime_modela]> read(){} dodati - return session.createQuery("from [ime_modela]").list();
+    4. Izraditi metodu public void setPodaci(ulazni parametri){} - u fileu ObradaCura ima sve
+
 
 
 
