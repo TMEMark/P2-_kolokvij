@@ -36,7 +36,7 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
 @ManyToOne - za sve na prema jednom pr. @ManyToOne
     private Cura cura;
     
-###Više na prema više
+### Više na prema više
 @ManyToMany - za vise na prema vise pr. @ManyToMany
     private List<Muskarac> muskarac;
 
