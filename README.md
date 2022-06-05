@@ -1,6 +1,6 @@
 # Upute za 2. kolokvij iz Programiranja 2
 
-## 1. Preuzmite hibernate s moodlea i preimenujte sve pakete prema uputama u kolokviju
+## 1. Preuzmite hibernate s moodlea, raspakirajte u netbeans i preimenujte sve pakete prema uputama u kolokviju
 ## 2. Spajanje na bazu, izrada baze i mapiranje
 ### 2.1. Davanje ovlasti korisniku
 Kroz CLI
