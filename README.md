@@ -4,8 +4,11 @@
 ## 2. Spajanje na bazu, izrada baze i mapiranje
 
 create database [ime_baze] default character set utf8mb4;
+
 grant all privileges on [ime_baze].* to 'p2'@'localhost' identified by 'julija';
+
 <property name="connection.url">jdbc:mariadb://localhost/[ime_baze]?useSSL=false</property>
+
 <mapping class="[klasa].[podklasa].[model]" />
 
 
