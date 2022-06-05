@@ -52,6 +52,8 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     2. Source -> Obiriši psvm
     3. Code -> Generate Centar
     4. Start -> new Izbornik().setVisible(true);
+    5. Properties -> title Izbornik
+    6. Dodaj dugmat prema uputama u zadatku i na svako puce edit text promijeni naziv prema uputama i onda promijeni naziv varijable "btnCura"
     
 
 
