@@ -1,3 +1,5 @@
+#Upute za 2. kolokvij iz Programiranja 2
+
 Spajanje na bazu, izrada baze i mapiranje
 
 create database [ime_baze] default character set utf8mb4;
