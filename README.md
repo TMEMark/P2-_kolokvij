@@ -54,7 +54,7 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     4. Start -> new Izbornik().setVisible(true);
     5. Properties -> title Izbornik
     6. Dodaj dugmat prema uputama u zadatku i na svako puce edit text promijeni naziv prema uputama i onda promijeni naziv varijable "btnCura"
-    7. Dodaj for petlju za insert u bazu imas ju u file-u petlja
+    7. Dodaj for petlju za insert u bazu na puce imas ju u file-u petlja
     
 
 
