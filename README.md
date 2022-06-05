@@ -21,17 +21,25 @@ create database [ime_baze] default character set utf8mb4;
 
 
 
-## 3. Anotacije za modele
-
+## 3. Izrada modela
+Za svaki model napraviti sve atribute navedene u kolokviju i generirati gettere i settere
+## 3.1. Apstraktna klasa "Entitet"
+Ima u sebi one atribute koje imaju sve druge klase i nasljeduju ga
 @MappedSuperclass - anotacija za apstraktnu klasu koju nasljedujui sve druge klase
-
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY) - anotacije za id koji je autoinkrement
-
+## 3.2. Klase koje se mapiraju kao tablica u bazi
+Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
 @Entity - anotacija za klasu koja ce bit tablica u bazi
-
+## 3.3 Spajanje klasa
+### Jedan na prema više
+@ManyToOne - za sve na prema jednom pr. @ManyToOne
+    private Cura cura;
+###Više na prema više
 @ManyToMany - za vise na prema vise pr. @ManyToMany
     private List<Muskarac> muskarac;
 
-@ManyToOne - za sve na prema jednom pr. @ManyToOne
-    private Cura cura;
+
+
+
+
