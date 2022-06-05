@@ -1,6 +1,7 @@
-#Upute za 2. kolokvij iz Programiranja 2
+# Upute za 2. kolokvij iz Programiranja 2
 
-Spajanje na bazu, izrada baze i mapiranje
+## 1. Preimenujte sve pakete prema uputama u kolokviju
+## 2. Spajanje na bazu, izrada baze i mapiranje
 
 create database [ime_baze] default character set utf8mb4;
 grant all privileges on [ime_baze].* to 'p2'@'localhost' identified by 'julija';
@@ -9,7 +10,7 @@ grant all privileges on [ime_baze].* to 'p2'@'localhost' identified by 'julija';
 
 
 
-Anotacije za modele
+## 3. Anotacije za modele
 
 @MappedSuperclass - anotacija za apstraktnu klasu koju nasljedujui sve druge klase
 
