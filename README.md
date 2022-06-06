@@ -63,9 +63,10 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     3. Code -> Generate Centar
     4. Start -> new Izbornik().setVisible(true);
     5. Properties -> title Izbornik
-    6. Palette -> List
+    6. Palette -> ListSelection
     6.1. Properties -> model pobriši sve
     6.2. Code -> type parameters promijeni u <> u naziv modela
+    6.3. Na listu desni klik events 
     7. Dodaj puceta za update delete i create promijeni im nazive varijabli
     8. Dodaj txtField i labele promijeni nazive varijabli
     9. Napravi ViewAktivnosti kopiraj sve iz file-a na githubu koji se tak zove
@@ -74,6 +75,10 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     12. Dodaj u metodu FormaNaziv() npr or = new ObradaRiba();
     12. implements ViewAktivnosti mazni na klasu
     . U source za svako CUD puce dodaj kod
+### 5.3. ViewAktivnosti komponente u Formama
+    1. Ucitaj podatke - stavljas listu i combobox
+    2. Postavi vrijednosti na view kontrole - Postavlja vrijednosti za svaki txt field i combo box
+    3. Ucitaj vrijednosti iz view kontrola - 
 
 
 
