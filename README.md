@@ -54,11 +54,24 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     4. Start -> new Izbornik().setVisible(true);
     5. Properties -> title Izbornik
     6. Dodaj puceta koja vode na forme svih modela za CRUD
-    6.1. Ponovi od 2. do 5. za svaki JFrame
-    6.2. Na svako puce u izborniku koje vodi na CRUD dodaj -> new NazivForme().setVisible(true);
+    6.1. Na svako puce u izborniku koje vodi na CRUD dodaj -> new NazivForme().setVisible(true);
     7. Dodaj dugmat prema uputama u zadatku i na svako puce edit text promijeni naziv prema uputama i onda promijeni naziv varijable "btnCura"
     8. Dodaj for petlju za insert u bazu na puce imas ju u file-u petlja
-    
+### 5.2. Izrada formi
+    1. Izradiš Jframe Form Izbornik
+    2. Source -> Obiriši psvm
+    3. Code -> Generate Centar
+    4. Start -> new Izbornik().setVisible(true);
+    5. Properties -> title Izbornik
+    6. Palette -> List
+    6.1. Properties -> model pobriši sve
+    6.2. Code -> type parameters promijeni u <> u naziv modela
+    7. Dodaj puceta za update delete i create promijeni im nazive varijabli
+    8. Dodaj txtField i labele promijeni nazive varijabli
+    9. Napravi ViewAktivnosti kopiraj sve iz file-a na githubu koji se tak zove
+    10. Dodaj kod iz filea KodZaSvakiKurac.java
+    11. Dodaj ispod klase forme [NazivKontrolera] or;
+    . U source za svako CUD puce dodaj kod
 
 
 
