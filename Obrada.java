@@ -3,29 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ffos.kolokvij0.controller;
+package ffos.controller;
 
-import ffos.kolokvij0.utility.HibernateUtil;
-import java.util.List;
+import ffos.utility.HibernateUtil;
 import org.hibernate.Session;
 
 /**
  *
- * @author Korisnik
+ * @author marko
  */
 public abstract class Obrada<T> {
-    protected T entitet;
+ 
+    private T entitet;
     protected Session session;
-    public abstract void kontrolaCreate() throws Exception;
+    public abstract void kontrolaCreate() throws Exception ;
     public abstract void kontrolaUpdate() throws Exception;
     public abstract void kontrolaDelete() throws Exception;
-    public abstract List<T> read();
-
-    public Obrada() {
-        session = HibernateUtil.getSession();
+    
+    public Obrada(){
+        session=HibernateUtil.getSession();
     }
     
-    public void create() throws Exception{
+    public void create() throws Exception {
         kontrolaCreate();
         session.beginTransaction();
         session.save(entitet);
@@ -43,11 +42,15 @@ public abstract class Obrada<T> {
         kontrolaDelete();
         session.beginTransaction();
         session.delete(entitet);
-        session.getTransaction().commit();        
+        session.getTransaction().commit();
+        setEntitet(null);
     }
-    
-    
-    
-    
-    
+
+    public T getEntitet() {
+        return entitet;
+    }
+
+    public void setEntitet(T entitet) {
+        this.entitet = entitet;
+    }
 }
