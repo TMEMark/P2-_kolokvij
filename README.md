@@ -71,6 +71,7 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     9. Napravi ViewAktivnosti kopiraj sve iz file-a na githubu koji se tak zove
     10. Dodaj kod iz filea KodZaSvakiKurac.java
     11. Dodaj ispod klase forme [NazivKontrolera] or;
+    12. implements ViewAktivnosti mazni na klasu
     . U source za svako CUD puce dodaj kod
 
 
