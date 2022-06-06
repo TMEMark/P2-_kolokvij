@@ -1,0 +1,26 @@
+ @Override
+    public void ucitajPodatke() {
+        
+        DefaultListModel<Ribar> r = new DefaultListModel<>();
+        r.addAll(orib.read());
+        lstRibar.setModel(r);
+        lstRibar.repaint();
+    
+
+    }
+
+    @Override
+    public void postaviVrijednostiNaViewKontrole() {
+        orib.setEntitet(lstRibar.getSelectedValue());   
+        txtIme.setText(lstRibar.getSelectedValue().getIme());
+        txtPrezime.setText(lstRibar.getSelectedValue().getPrezime());
+  
+    
+    }
+
+    @Override
+    public void ucitajVrijednostiIzViewKontrola() {
+    orib.SetData(txtIme.getText(), txtPrezime.getText());
+    
+    }
+}
