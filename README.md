@@ -54,6 +54,7 @@ Imaju u sebi sve potrebne atribute i nasljeđuju apstraktnu klasu
     4. Start -> new Izbornik().setVisible(true);
     5. Properties -> title Izbornik
     6. Dodaj puceta koja vode na forme svih modela za CRUD
+    6.1. Ponovi od 2. do 5. za svaki JFrame
     7. Dodaj dugmat prema uputama u zadatku i na svako puce edit text promijeni naziv prema uputama i onda promijeni naziv varijable "btnCura"
     8. Dodaj for petlju za insert u bazu na puce imas ju u file-u petlja
     
